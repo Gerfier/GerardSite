@@ -21,6 +21,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
+	/*font-family: "Filson";*/
 }
 
 header {
@@ -149,14 +150,17 @@ header p {
 
 
 #about-section {
-font-family: 'Vollkorn', sans-serif;
+font-family: "Filson"
+/*font-family: 'Vollkorn', sans-serif;*/
 /*font-weight: bold;*/
 color: black;
 text-align: center;
 padding: auto;
 padding-top: 0px;
+padding-bottom: 10%;
 }
 
+/*
 #about-section:hover
 {
   background:black;
@@ -164,7 +168,7 @@ padding-top: 0px;
 	color: white;
 	text-align: center;
 	padding: 50px;
-}
+}*/
 
 .glyphicon-icon{
   text-align: center;
@@ -197,7 +201,8 @@ padding-top: 0px;
 }
 
 .section {
-  font-family: 'Vollkron', sans-serif;
+	font-family: "Filson"
+  /*font-family: 'Vollkron', sans-serif;*/
   color: black;
 	text-align: center;
 
@@ -205,12 +210,13 @@ padding-top: 0px;
 
 #experience-section {
 	font-family: 'Vollkorn', sans-serif;
-	background-color: white;
-	color: black;
+	background-color: #898E8C;
+	color: white;
 	font-size: 20px;
 	padding-top:none;
 }
 
+/*
 #experience-section:hover
 {
   background:black;
@@ -218,10 +224,15 @@ padding-top: 0px;
 	color: white;
 	text-align: center;
 	padding: 50px;
+}*/
+
+
+
+#contact-section {
+	background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1052&q=80");
+	background-size: cover;
+	background-attachment: fixed;
 }
-
-
-
 
 /*Add some shadows to create a card effect*/
 .card {
@@ -296,19 +307,19 @@ section .row img {
 /*Footer */
 footer {
   font-size: 12px;
-  padding: 15px 0;
+  padding: 50px 0;
 	display: block;
-	background-color: white;
-	margin-top: 0px;
-	color: black;
+	background-color: black;
+	margin-top: -90px;
+	color: white;
 	font-family: Arial,sans-serif;
 	text-align: center;
 }
-
+/*
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
-}
+}*/
 
 footer ul {
   list-style: none;
