@@ -16,3 +16,4 @@ $(document).ready(function() {
 $("#contact-section").hover(function(){
     $("#contact-section").animate({up: '20px'});
 });*/
+
