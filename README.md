@@ -1,8 +1,7 @@
 # GerardSite
 Personal Site Project
 
-NOTE: Im currently improving this project and fixing responsive issues. 
-Will present a cleaner version soon
+NOTE: I started a new REPO for my website, thus this repo is not longer being updated or fixed!!
 
 You can run it using this link: https://rawgit.com/Gerfier/GerardSite/master/index.html
 
